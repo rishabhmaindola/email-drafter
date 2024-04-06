@@ -234,7 +234,7 @@ export default function Home() {
                     <CardFooter className="flex flex-col gap-1 w-full">
                         <Button onClick={handleSignIn} className="w-full">Sign In</Button>
                         <div className='flex gap-1'>
-                            <h2 className='text-sm'>Didn't have an account, Please</h2>
+                            <h2 className='text-sm'>Didn&apos;t have an account, Please</h2>
                             <button onClick={handleToggle} className='text-sm text-blue-500' >Sign Up</button>
                         </div>
                     </CardFooter>
