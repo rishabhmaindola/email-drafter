@@ -17,7 +17,7 @@ function page() {
                         2.Add your job profile from the category drop down menu.  <br />
                         3.First, add the qualities/attributes you want for your email to be drafted.You can also add custom prompts from the settings. <br />
                         4.Paste the link of the website of the business you want to pitch to and click on Scrape Website. <br />
-                        5.Now waiting for the server response if the website is scraped successfully the a Hover Card Message will appear in the middle of the screen "Prompt Added Successfully", else it will toast an error.  <br />
+                        5.Now waiting for the server response if the website is scraped successfully the a Hover Card Message will appear in the middle of the screen &quot;Prompt Added Successfully&quot;, else it will toast an error.  <br />
                         6.Click on Add Prompt, the prompt wil be added to the text area. <br />
                         7.Now you can either copy paste the prompt in chatgpt or if you have saved your OpenAI API key you can click on create button and the drafted email will generate on the Draft text area.  <br />
                     </AccordionContent>
@@ -35,7 +35,7 @@ function page() {
                         <br/>
                         Cold Email Drafter leverages the innovative concept of prompt engineering to streamline the email drafting process. Developed with the robust MERN (MongoDB, Express.js, React, Node.js) stack, this tool enables users to generate personalized emails within seconds, thanks to seamless integration with OpenAI. <br/>
                         <br/>
-                        With Cold Email Drafter, users can effortlessly compose compelling emails tailored to their specific needs, whether it's pitching a business proposal, following up on a lead, or initiating outreach to potential clients or collaborators. <br/>
+                        With Cold Email Drafter, users can effortlessly compose compelling emails tailored to their specific needs, whether it&apos;s pitching a business proposal, following up on a lead, or initiating outreach to potential clients or collaborators. <br/>
                         <br/>
 
                         Key Features: <br/>
