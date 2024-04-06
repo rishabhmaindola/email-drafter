@@ -30,7 +30,7 @@ export default function Profile() {
             const user = JSON.parse(localStorage.getItem('user'));
             const token = user.token;
     
-            const response = await axios.put('http://localhost:5000/user/update', {
+            const response = await axios.put('https://email-drafter-server.vercel.app/user/update', {
                 username: data.username,
                 email: data.email,
             }, {
