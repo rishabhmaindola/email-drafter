@@ -14,7 +14,7 @@ import { UserNav } from "../Components/User/UserNav";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import PromptCD from '../Components/Prompt/PromptCD';
 
-function settings() {
+function Settings() {
 
     const { toast } = useToast();
 
@@ -100,4 +100,4 @@ function settings() {
     )
 }
 
-export default settings;
+export default Settings;
