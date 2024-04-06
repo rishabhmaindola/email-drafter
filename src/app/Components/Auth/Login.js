@@ -57,7 +57,7 @@ export default function Home() {
 
             const { username, email, password } = UserInfo;
             const userData = { username, email, password };
-            const response = await axios.post('http://localhost:5000/user/signup', userData);
+            const response = await axios.post('https://email-drafter-server.vercel.app/user/signup', userData);
 
             if (response.status === 201) {
                 console.log('User SignUp Successful', response.data);
@@ -89,7 +89,7 @@ export default function Home() {
             console.log("Logging in with data:", LoginInfo);
             const { email, password } = LoginInfo;
             const loginData = { email, password };
-            const response = await axios.post('http://localhost:5000/user/login', loginData);
+            const response = await axios.post('https://email-drafter-server.vercel.app/user/login', loginData);
 
             if (response.status === 200) {
                 setLoginFailedError("");
