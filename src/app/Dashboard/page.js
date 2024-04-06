@@ -54,7 +54,7 @@ function Dashboard() {
         const token = user.token;
         setProgress(65);
 
-        const response = await axios.post('http://localhost:5000/scrape/info', { websiteUrl, aboutPageUrl }, {
+        const response = await axios.post('https://email-drafter-server.vercel.app/scrape/info', { websiteUrl, aboutPageUrl }, {
           headers: {
             authorization: `Bearer ${token}`
           }
@@ -132,7 +132,7 @@ function Dashboard() {
     try {
       console.log("Sending message to server...");
 
-      const response = await axios.post('http://localhost:5000/openai/create', {
+      const response = await axios.post('https://email-drafter-server.vercel.app/openai/create', {
         message: message,
         openapikey: apiKey
       });
@@ -185,7 +185,7 @@ function Dashboard() {
       })
     }
     try {
-      const response = await post('http://localhost:5000/save', payload);
+      const response = await post('https://email-drafter-server.vercel.app/save', payload);
       // const data = await response.json();
       if (response.status == 200) {
         setShowSave(false);
